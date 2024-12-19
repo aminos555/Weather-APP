@@ -1,0 +1,89 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('lemeraude-des-alpe-in-france-yx.jpg');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    text-align: center;
+    background-image: url('weth.jpg');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 85px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(27, 0, 228, 0.6); 
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(27, 0, 228, 0.6);
+}
+
+button {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+  
+  #weatherResult {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255); 
+}
+  
+/* Sidebar Styling */
+.sidebar {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(27, 0, 228, 0.6);
+    width: 300px;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+
+
+
